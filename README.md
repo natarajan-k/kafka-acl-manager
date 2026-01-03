@@ -15,12 +15,12 @@ git clone https://github.com/natarajan-k/kafka-acl-manager.git.
 Alternatively, download the zip file inside the pre-compiled folder and unzip it locally.   
 3. Update the acl.properties file. 
 
-4. Test Creatinng ACLs. You can use the below examples as guide.   
+4. Test Creating ACLs. You can use the below examples as guide.   
 
 ## Examples.  
 
 ### List ACLs.  
-    java -jar KafkaAclManager.jar --command list   `
+    java -jar KafkaAclManager.jar --command list 
 
 ### Create ACLs
 1. Producer: Write Access to ALL topics for user01.  
